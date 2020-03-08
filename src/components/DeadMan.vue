@@ -4,7 +4,7 @@ v-container(fluid='')
     v-layout(column='', align-center='')
       img.my-5(src='@/assets/biohazard.svg', alt='Netflix Vueing Habits', width='150px')
       |
-      h3.display-1 Turn Me On, Dead Man
+      h1 Turn Me On, Dead Man
 
       h2 Playbacking It Ass-Backwards
 
@@ -16,8 +16,8 @@ v-container(fluid='')
         div
           | Eu sou a morsa
         footer(style="text-align: center;")
-          small
-            | &mdash;&nbsp;John Lennon
+          small.mr-2
+            | John Lennon
 </template>
 
 

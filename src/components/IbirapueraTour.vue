@@ -10,10 +10,10 @@ v-container(fluid='', align-content-space-around='')
 
 
       h3.display-1
-        v-icon directions_bike
+        v-icon(x-large color="blue-grey") directions_bike
         | &nbsp;Tour de San Pavlov
       h2 Sobre Pedalagens Fiscais
-      blockquote.subheading.mt-4 Militat omnis amans
+      blockquote.subheading.mt-3 Militat omnis amans
         footer
           small
             | &mdash; Ovidius the Nose
@@ -25,7 +25,8 @@ v-container(fluid='', align-content-space-around='')
           v-icon.mr-3(x-large='') free_breakfast
           v-icon.mr-3(x-large='') local_bar
           v-icon.mr-3(x-large='') fa-motorcycle
-
+          v-icon.mr-3(x-large='') waves
+          v-icon.mr-3(x-large='') smoking_rooms
 </template>
 
 

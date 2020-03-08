@@ -1,17 +1,17 @@
-<template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <img src="@/assets/biohazard.svg" alt="Netflix Vueing Habits" width="150px" class="my-5">
-        <h3 class="display-1">O Charada e o Pinguim</h3>
-        <h2>Entre Nova Amsterdã e Rio de Dinheiro</h2>
-        <blockquote>
-          <footer>
-          </footer>
-        </blockquote>
-      </v-layout>
-    </v-slide-y-transition>
-  </v-container>
+<template lang="pug">
+v-container(fluid)
+  v-slide-y-transition(mode='out-in')
+    v-layout(column align-center)
+      img.my-5(src='@/assets/biohazard.svg' alt='Netflix Vueing Habits' width='150px')
+      h1.display-2 O Charada e o Pinguim
+      h1.headline.my-3 Entre Nova Amsterdã e Rio de Dinheiro
+      v-btn.white--text(large color='blue-grey') 
+        i.material-icons.mr-2 autorenew 
+        | Rush to Push
+      blockquote
+        footer.
+          
+          
 </template>
 
 
@@ -19,6 +19,10 @@
 h1, h2 {
   font-weight: normal;
 }
+
+.title 
+
+
 ul {
   list-style-type: none;
   padding: 0;

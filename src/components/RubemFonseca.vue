@@ -4,7 +4,7 @@ v-container(fluid='')
     v-layout(column='', align-center='')
       img.mt-5(src='@/assets/biohazard.svg', alt='Netflix Vueing Habits', width='150px')
 
-      h3.display-1 O Cobrador
+      h1 O Cobrador
 
       h2 Um Conto Sobre Rio de Dinheiro
 
@@ -15,11 +15,15 @@ v-container(fluid='')
 
       v-layout
         span.display-4.group
-          v-icon.mr-3(x-large='') settings_backup_restore
-          v-icon.mr-3(x-large='') settings_input_antenna
-          v-icon.mr-3(x-large='') settings_input_composite
-          v-icon.mr-3(x-large='') place
-          v-icon.mr-3(x-large='') local_library
+          v-icon.mr-3(x-large) fa-sun
+          v-icon.mr-3(x-large) settings_backup_restore
+          v-icon.mr-3(x-large) settings_input_antenna
+          v-icon.mr-3(x-large) settings_input_composite
+          v-icon.mr-3(x-large) place
+          v-icon.mr-3(x-large) local_library
+          v-icon.mr-3(x-large) fa-chess-queen
+          v-icon.mr-3(x-large) fa-bullseye
+
 
 </template>
 

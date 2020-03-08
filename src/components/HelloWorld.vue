@@ -4,7 +4,7 @@ v-container(fluid='')
     v-layout(column='', align-center='')
       img.my-5(src='@/assets/biohazard.svg', alt='Netflix Vueing Habits', width='150px')
 
-      h3.display-1 Bom Dia, Meia-Noite
+      h1 Bom Dia, Meia-Noite
 
       h2 Clonado na Cidade de S&atilde;o Pavlov
 

@@ -1,12 +1,12 @@
 <template lang="pug">
-v-app.dignity
-  v-navigation-drawer(persistent='', :mini-variant.sync='miniVariant', :clipped='clipped', v-model='drawer', enable-resize-watcher='', fixed='', app='', style='overflow: hidden;')
+v-app.application
+  v-navigation-drawer(persistent :mini-variant.sync='miniVariant', :clipped='clipped', v-model='drawer', enable-resize-watcher   fixed app style='overflow: hidden;')
     v-list(style="padding: 0;")
-      v-list-tile(avatar='', style="background-color: lightyellow;")
+      v-list-tile(avatar style="background-color: darkgrey")
         v-list-tile-avatar
-          i.fas.fa-sun.fa-4x.mr-0
-        v-list-tile-title.title.with.dignity.ml-0
-           | &nbsp;&nbsp;Engenho Novo LLC
+          i.material-icons.white--text beach_access
+        v-list-tile-title.title.white--text
+           | Topical Tropics
 
     v-divider
     v-list
@@ -16,21 +16,15 @@ v-app.dignity
 
         v-list-tile-content
           v-list-tile-title(v-text='item.title', style="color: inherit")
-
-  v-toolbar(app='', :clipped-left='clipped')
+  
+  v-toolbar(app :clipped-left='clipped')
     v-toolbar-side-icon(@click.stop='drawer = !drawer')
 
-    v-btn(icon='', @click.stop='miniVariant = !miniVariant')
+    v-btn.mr-4(icon @click.stop='miniVariant = !miniVariant')
       v-icon(v-html="miniVariant ? 'chevron_right' : 'chevron_left'")
 
-    v-btn(icon='', @click.stop='clipped = !clipped')
-      v-icon local_airport
-
-    v-btn(icon='', @click.stop='fixed = !fixed')
-      v-icon restaurant
-
     v-btn(icon)
-      v-icon(large color="blue-grey") beach_access
+      i.fas.fa-sun.fa-3x.mr-2
 
     v-toolbar-title.dignity.ml-0(v-text='title')
 
@@ -40,13 +34,46 @@ v-app.dignity
       v-icon highlight_off
 
   v-content
-    router-view.dignity.mb-5
+    router-view
 
-  v-footer.hidden-sm-and-down(:fixed='fixed', app='')
+  v-footer.hidden-sm-and-down(:fixed='fixed' app)
     span.ml-3
       v-icon beach_access
       | &nbsp; Clonado na Samboja pelo Gran Bret&ocirc;nio 2018 e honi soit qui mal y pense
 </template>
+
+
+<style lang="scss">
+
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons");
+
+.application, .title {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 300;
+  font-style: normal
+}
+
+  body, html, .application {
+    font-family: 'News Cycle', sans-serif !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, .headline, .title, .subheading  {
+    font-family: 'News Cycle', sans-serif !important;
+    font-weight: 300;
+  }
+
+  .dignity {
+    font-family: 'News Cycle', sans-serif !important;
+    font-weight: 300;
+  }
+
+  .display-1, .display-2, .display-3, .display-4, .headline, .title, .subtitle-1, .subtitle-2, .body-1, .body-2, .caption   {
+    font-family: 'News Cycle', sans-serif !important;
+    font-weight: 300;
+  }
+
+</style>
+  
 
 <script>
 export default {
