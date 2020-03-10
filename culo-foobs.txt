@@ -1,0 +1,100 @@
+2020-03-10T16:07:13.239251+00:00 app[web.1]: at Object.<anonymous> (/app/build/check-versions.js:6:15)
+2020-03-10T16:07:13.239251+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1147:30)
+2020-03-10T16:07:13.239252+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+2020-03-10T16:07:13.239252+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:996:32)
+2020-03-10T16:07:13.239252+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+2020-03-10T16:07:13.239253+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:1036:19) {
+2020-03-10T16:07:13.239253+00:00 app[web.1]: code: 'MODULE_NOT_FOUND',
+2020-03-10T16:07:13.239254+00:00 app[web.1]: requireStack: [ '/app/build/check-versions.js', '/app/build/dev-server.js' ]
+2020-03-10T16:07:13.239254+00:00 app[web.1]: }
+2020-03-10T16:07:13.245844+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-03-10T16:07:13.246203+00:00 app[web.1]: npm ERR! errno 1
+2020-03-10T16:07:13.247281+00:00 app[web.1]: npm ERR! il-mio-culo@1.0.0 start: `node build/dev-server.js`
+2020-03-10T16:07:13.247446+00:00 app[web.1]: npm ERR! Exit status 1
+2020-03-10T16:07:13.247636+00:00 app[web.1]: npm ERR!
+2020-03-10T16:07:13.247766+00:00 app[web.1]: npm ERR! Failed at the il-mio-culo@1.0.0 start script.
+2020-03-10T16:07:13.247909+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-03-10T16:07:13.255272+00:00 app[web.1]: 
+2020-03-10T16:07:13.255481+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-03-10T16:07:13.255631+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-03-10T16_07_13_248Z-debug.log
+2020-03-10T16:07:17.708306+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-03-10T16:07:21.034383+00:00 heroku[web.1]: State changed from starting to crashed
+2020-03-10T16:07:21.014935+00:00 heroku[web.1]: Process exited with status 1
+2020-03-10T16:07:20.759979+00:00 app[web.1]: 
+2020-03-10T16:07:20.760004+00:00 app[web.1]: > il-mio-culo@1.0.0 start /app
+2020-03-10T16:07:20.760004+00:00 app[web.1]: > node build/dev-server.js
+2020-03-10T16:07:20.760005+00:00 app[web.1]: 
+2020-03-10T16:07:20.923808+00:00 app[web.1]: internal/modules/cjs/loader.js:979
+2020-03-10T16:07:20.923809+00:00 app[web.1]: throw err;
+2020-03-10T16:07:20.923810+00:00 app[web.1]: ^
+2020-03-10T16:07:20.923810+00:00 app[web.1]: 
+2020-03-10T16:07:20.923811+00:00 app[web.1]: Error: Cannot find module 'shelljs'
+2020-03-10T16:07:20.923811+00:00 app[web.1]: Require stack:
+2020-03-10T16:07:20.923812+00:00 app[web.1]: - /app/build/check-versions.js
+2020-03-10T16:07:20.923812+00:00 app[web.1]: - /app/build/dev-server.js
+2020-03-10T16:07:20.923813+00:00 app[web.1]: at Function.Module._resolveFilename (internal/modules/cjs/loader.js:976:15)
+2020-03-10T16:07:20.923813+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:859:27)
+2020-03-10T16:07:20.923814+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:1036:19)
+2020-03-10T16:07:20.923814+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:72:18)
+2020-03-10T16:07:20.923814+00:00 app[web.1]: at Object.<anonymous> (/app/build/check-versions.js:6:15)
+2020-03-10T16:07:20.923815+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1147:30)
+2020-03-10T16:07:20.923815+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+2020-03-10T16:07:20.923815+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:996:32)
+2020-03-10T16:07:20.923816+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+2020-03-10T16:07:20.923816+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:1036:19) {
+2020-03-10T16:07:20.923817+00:00 app[web.1]: code: 'MODULE_NOT_FOUND',
+2020-03-10T16:07:20.923817+00:00 app[web.1]: requireStack: [ '/app/build/check-versions.js', '/app/build/dev-server.js' ]
+2020-03-10T16:07:20.923817+00:00 app[web.1]: }
+2020-03-10T16:07:20.935316+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-03-10T16:07:20.935947+00:00 app[web.1]: npm ERR! errno 1
+2020-03-10T16:07:20.937731+00:00 app[web.1]: npm ERR! il-mio-culo@1.0.0 start: `node build/dev-server.js`
+2020-03-10T16:07:20.937963+00:00 app[web.1]: npm ERR! Exit status 1
+2020-03-10T16:07:20.938343+00:00 app[web.1]: npm ERR!
+2020-03-10T16:07:20.938666+00:00 app[web.1]: npm ERR! Failed at the il-mio-culo@1.0.0 start script.
+2020-03-10T16:07:20.938987+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-03-10T16:07:20.949423+00:00 app[web.1]: 
+2020-03-10T16:07:20.949943+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-03-10T16:07:20.950211+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-03-10T16_07_20_940Z-debug.log
+2020-03-10T16:09:31.560920+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=pretty-world-of-aftershocks.herokuapp.com request_id=749af341-6e81-4abe-91cd-938d4bb7bc29 fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-10T16:09:33.248852+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=pretty-world-of-aftershocks.herokuapp.com request_id=dd9cec78-8926-4c42-8ea0-f1c71ca47aba fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-10T16:29:11.188781+00:00 heroku[web.1]: State changed from crashed to starting
+2020-03-10T16:29:14.944739+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-03-10T16:29:17.340780+00:00 heroku[web.1]: State changed from starting to crashed
+2020-03-10T16:29:17.104337+00:00 app[web.1]: 
+2020-03-10T16:29:17.104371+00:00 app[web.1]: > il-mio-culo@1.0.0 start /app
+2020-03-10T16:29:17.104372+00:00 app[web.1]: > node build/dev-server.js
+2020-03-10T16:29:17.104372+00:00 app[web.1]: 
+2020-03-10T16:29:17.197482+00:00 app[web.1]: internal/modules/cjs/loader.js:979
+2020-03-10T16:29:17.197484+00:00 app[web.1]: throw err;
+2020-03-10T16:29:17.197485+00:00 app[web.1]: ^
+2020-03-10T16:29:17.197485+00:00 app[web.1]: 
+2020-03-10T16:29:17.197486+00:00 app[web.1]: Error: Cannot find module 'shelljs'
+2020-03-10T16:29:17.197486+00:00 app[web.1]: Require stack:
+2020-03-10T16:29:17.197487+00:00 app[web.1]: - /app/build/check-versions.js
+2020-03-10T16:29:17.197487+00:00 app[web.1]: - /app/build/dev-server.js
+2020-03-10T16:29:17.197489+00:00 app[web.1]: at Function.Module._resolveFilename (internal/modules/cjs/loader.js:976:15)
+2020-03-10T16:29:17.197490+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:859:27)
+2020-03-10T16:29:17.197492+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:1036:19)
+2020-03-10T16:29:17.197493+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:72:18)
+2020-03-10T16:29:17.197493+00:00 app[web.1]: at Object.<anonymous> (/app/build/check-versions.js:6:15)
+2020-03-10T16:29:17.197493+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1147:30)
+2020-03-10T16:29:17.197494+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+2020-03-10T16:29:17.197494+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:996:32)
+2020-03-10T16:29:17.197495+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+2020-03-10T16:29:17.197495+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:1036:19) {
+2020-03-10T16:29:17.197496+00:00 app[web.1]: code: 'MODULE_NOT_FOUND',
+2020-03-10T16:29:17.197496+00:00 app[web.1]: requireStack: [ '/app/build/check-versions.js', '/app/build/dev-server.js' ]
+2020-03-10T16:29:17.197497+00:00 app[web.1]: }
+2020-03-10T16:29:17.209000+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-03-10T16:29:17.209546+00:00 app[web.1]: npm ERR! errno 1
+2020-03-10T16:29:17.211131+00:00 app[web.1]: npm ERR! il-mio-culo@1.0.0 start: `node build/dev-server.js`
+2020-03-10T16:29:17.211369+00:00 app[web.1]: npm ERR! Exit status 1
+2020-03-10T16:29:17.211594+00:00 app[web.1]: npm ERR!
+2020-03-10T16:29:17.211766+00:00 app[web.1]: npm ERR! Failed at the il-mio-culo@1.0.0 start script.
+2020-03-10T16:29:17.211943+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-03-10T16:29:17.222561+00:00 app[web.1]: 
+2020-03-10T16:29:17.222838+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-03-10T16:29:17.222996+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-03-10T16_29_17_212Z-debug.log
+2020-03-10T16:29:17.311054+00:00 heroku[web.1]: Process exited with status 1
+2020-03-10T16:48:40.266686+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=pretty-world-of-aftershocks.herokuapp.com request_id=0d9395b2-dc8d-4f42-a635-beef5b2b0f01 fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-10T16:48:41.115073+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=pretty-world-of-aftershocks.herokuapp.com request_id=9a604ec7-4224-45a5-b4d2-14190912161e fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
